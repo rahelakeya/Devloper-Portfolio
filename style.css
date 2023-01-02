@@ -6,16 +6,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orangered;
 }
 
-p {
-    border: 10px 20px;
-    border-radius: 15px;
-}
-
-section {
+.flexible-container {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 100px;
@@ -41,6 +40,31 @@ section {
     font-weight: 700;
 }
 
-.top-banner {
-    background-image: url(image/1.jpg);
+.experience-area {
+    background-image: url(image/2.jpeg);
     background-repeat: no-repeat;
+    background-position: unset;
+}
+
+.experience-item {
+    width: 50%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+
+}
+
+#Full {
+    border-left: 7px solid orangered;
+}
+
+#Baby {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    font-weight: 700;
+    text-align: center;
+}
